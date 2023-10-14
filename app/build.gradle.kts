@@ -43,9 +43,16 @@ dependencies {
     implementation("androidx.navigation:navigation-ui:2.5.3")
     implementation("com.google.android.gms:play-services-maps:18.1.0")
     implementation("com.google.firebase:firebase-inappmessaging-display-ktx:20.3.5")
+    implementation("com.google.firebase:firebase-auth-ktx:22.1.2")
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
+
+
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     implementation("com.squareup.okhttp3:okhttp:4.10.0")
     implementation("de.hdodenhof:circleimageview:3.1.0")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+
+    implementation("com.google.firebase:firebase-database-ktx:20.2.2")
 }
